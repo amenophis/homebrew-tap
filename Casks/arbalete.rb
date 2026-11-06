@@ -1,11 +1,14 @@
 cask "arbalete" do
-  version "0.1.1"
-  sha256 "2dde7aef63e22556000cb336e0a98bd79c3439e198e02f5d686f8638cc53c733"
+  version "0.1.2"
+  sha256 "b19546f2eeb72e2ff0c09cb23c34711c757a89455f424b23f6aaedae1a0364e7"
 
   url "https://github.com/amenophis/arbalete/releases/download/v#{version}/Arbalete-#{version}-arm64.dmg"
   name "Arbalete"
   desc "Browser inspired by Arc, on Chromium"
-  homepage "https://github.com/amenophis/arbalete"
+  homepage "https://arbalete.co"
+
+  # The app updates itself (Sparkle): brew upgrade leaves it to it.
+  auto_updates true
 
   depends_on arch: :arm64
   depends_on macos: ">= :sonoma"
