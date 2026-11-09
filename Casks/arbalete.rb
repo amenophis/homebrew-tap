@@ -1,6 +1,6 @@
 cask "arbalete" do
-  version "0.2.0"
-  sha256 "0f9b71ba4325cc336e2017b1e07f218d92111535afcf67441abdf9aa441b49f6"
+  version "0.3.0"
+  sha256 "a574cf24a32003d0444e094d13cd70bd808cd0e31930dc697e7fd784ce2faec0"
 
   url "https://github.com/amenophis/arbalete/releases/download/v#{version}/Arbalete-#{version}-arm64.dmg"
   name "Arbalete"
